@@ -118,6 +118,16 @@ export const StyledUl = styled.ul`
     flex-direction: column;
 `;
 
-export const Styledtable = styled.table `{
-    margin: auto;
-}`;
+export const TableWrapper = styled.div`
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: center;     /* optional: vertically center */
+  width: 100%;
+`;
+
+
+export const Styledtable = styled.table `
+    border-collapse: collapse;
+    border: 2px solid black;
+    text-align: center;
+`;

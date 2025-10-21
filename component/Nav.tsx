@@ -9,6 +9,7 @@ export default function Nav(){
                 <NavItem><NavLink to={`/internships`}>Internships</NavLink></NavItem>
                 <NavItem><NavLink to={`/achievements`}>Achievements</NavLink></NavItem>
                 <NavItem><NavLink to={`/documents`}>Documents</NavLink></NavItem>
+                <NavItem><NavLink to={`/Reference`}>Reference</NavLink></NavItem>
                 <NavItem><NavLink to={`/Project`}>Projects</NavLink></NavItem>
             </NavList>
         </StyledNav>

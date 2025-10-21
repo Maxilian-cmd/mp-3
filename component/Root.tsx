@@ -6,6 +6,7 @@ import Home from "./mains/Home.tsx";
 import Edu from "./mains/Education.tsx";
 import Ach from "./mains/Achievements.tsx";
 import Doc from "./mains/Documents.tsx";
+import Ref from "./mains/Reference.tsx";
 import Pro from "./mains/Project.tsx";
 import {Route, Routes} from "react-router";
 import {StyledPageWrapper, StyledContainer} from "./Styles/Styles.tsx";
@@ -25,6 +26,7 @@ export default function Root(){
                 <Route path={`/internships`} element={<Intern/>}/>
                 <Route path={`/achievements`} element={<Ach/>}/>
                 <Route path={`/documents`} element={<Doc/>}/>
+                <Route path={'/reference'} element={<Ref/>}/>
                 <Route path={`/project`} element={<Pro/>}/>
             </Routes>
             </StyledContainer>

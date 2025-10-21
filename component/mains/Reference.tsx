@@ -8,7 +8,7 @@ export default function Ref(){
             <br/><br/>
             <h4>personal</h4>
             <TableWrapper>
-                <Styledtable border="1px solid black">
+                <Styledtable border={1}>
                     <tr>
                         <th>Name</th>
                         <th>Position</th>
